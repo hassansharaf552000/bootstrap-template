@@ -1,0 +1,341 @@
+
+.navbar-brand img{
+    width: 130px;
+}
+/* .avatar img{
+    width: 100%;
+} */
+/* .nav-link{
+    padding-right: 20px !important;
+} */
+
+
+ @media (min-width: 1200px) {
+    .navbar .container{
+        width: 100% !important;
+        margin-right: 5px !important;
+        margin-left: 100px !important;
+    }
+    .navbar-dropdown-image{
+        width:250px;
+    }
+    .main-section .container-fluid{
+        padding:0 100px !important;
+    }
+ }
+ @media (max-width: 1115px) {
+    .navbar.container{
+        /* margin-right: 5px !important; */
+        margin-left: 25px !important;
+        margin-right: 0px !important ;
+    }
+    .d-flex{
+        align-items: end !important;
+    }
+    .main-section .container-fluid{
+        padding:0 50px !important;
+    }
+    
+ }
+@media (max-width: 576px) {
+    .dropdown-item::before{
+        transform: rotate(-90deg);
+    }
+    
+}
+/* .dropdown .dropdown-menu{
+    display: none;
+} */
+ 
+/* @media screen and (max-width:1115) {
+    .dropdown:checked > .dropdown-menu , .dropend:checked > .dropdown-menu{
+        display: block;
+}
+} */
+
+
+.dropdown:hover .nav-link , .nav-link:hover i ,.nav-link:focus ,.dropdown-item:hover{
+    color: rgb(12, 12, 177);
+
+}
+ .dropdown-item:hover {
+    color: rgb(12, 12, 177);
+    background-color: rgb(203, 203, 252);
+    border-radius: 5px; 
+}
+.dropdown:hover > .dropdown-menu , .dropend:hover > .dropdown-menu{
+    display: block;
+}
+@media screen and (min-width:1116) {
+    .dropend:hover > .dropdown-menu{
+        position: absolute;
+        top: 0;
+        left: 100%;
+        margin-left: .125em;
+    }
+}
+.navbar-dropdown-image1{
+    width: 10% !important;
+}
+.sss{
+    background-image: url(./images/Screenshot_22-6-2024_4817_eduport.webestica.com.jpeg) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 190px;
+    margin-top: 15px;
+}
+.card-create{
+
+}
+/* .h-200px{
+    height: 10px;
+} */
+/* .card{
+    position: relative;
+    top: 180px;
+    margin:0px 70px;
+} */
+.sss1{
+    position: relative;
+    bottom: 40px;
+}
+.w-60px img{
+    width: 60px !important;
+}
+.thead-dark{
+    background-color: black !important;
+}
+.bg-danger-hover:hover{
+    background-color: rgba(226, 3, 3, 0.11);
+}
+.list-group-edit:hover ,.active{
+    background-color: white !important;
+    /* padding: 10px; */
+    border-radius: 10px;
+    color: black !important;
+}
+.list-group-edit{
+ 
+    padding: 10px;
+    margin: 5px;
+}
+.list-group-edit-last{
+    padding: 10px;
+    margin: 5px;
+}
+/*  */
+/* .sss1 img{
+    position: relative;
+    top: 10px;
+} */
+
+.ps-sm-5{
+    padding-left: 70px;
+    padding-top: 10px;
+}
+@media (max-width: 769px) {
+    .sss1{
+        position: relative;
+        bottom: 30px;
+    }
+    .sss{
+        background-image: url(./images/Screenshot_22-6-2024_4817_eduport.webestica.com.jpeg) !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 120px;
+        margin-top: 15px;
+    }
+
+    .sss1 img{
+        position: relative;
+        bottom: 30px;
+        width: 90px !important ;
+        margin-left: 30px !important;
+    }
+    .main-section .container-fluid{
+        margin-right: auto !important;
+        padding: 0 10px !important;
+    }
+   
+}
+@media (max-width: 840px) {
+    .main-section .container-fluid{
+        margin-right: auto !important;
+        padding: 0 20px !important;
+    }
+}
+@media (max-width: 775px) {
+    .main-section .container-fluid{
+        margin-right: 500px !important;
+        padding: 0 30px !important;
+    }
+}
+
+@media (max-width: 565px) {
+    .sss1{
+        position: relative;
+        bottom: 70px;
+    }
+    .ps-sm-5{
+        padding-left: 70px;
+        padding-top: 50px;
+
+    }
+    .sss1 img{
+        position: relative;
+        bottom: 70px;
+        width: 90px !important ;
+        margin-left: 30px !important;
+    }
+    
+    .sss{
+        background-image: url(./images/Screenshot_22-6-2024_4817_eduport.webestica.com.jpeg) !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 120px;
+        margin-top: 15px;
+    }
+}
+@media (min-width: 1115px) {
+    
+    .container-fluid-n{
+        margin: 0 70px;
+    }
+    .me-xl-5-button{
+    margin-right: 130px;
+    }
+}
+
+
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  @media (max-width: 575.98px) {
+    .table-responsive {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+  @media (max-width: 767.98px) {
+    .table-responsive {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+  @media (max-width: 991.98px) {
+    .table-responsive {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+  @media (max-width: 1199.98px) {
+    .table-responsive {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+  .table td, .table th {
+    white-space: nowrap;
+  }
+  
+  @media (min-width: 767.98px) {
+    .table-responsive .table td, .table-responsive .table th {
+      white-space: inherit;
+    }
+  }
+  @media (max-width: 767.98px) {
+    .table-responsive .table-responsive-title {
+      width: 200px;
+      white-space: normal;
+    }
+  }
+  table {
+    caption-side: bottom;
+    border-collapse: collapse;
+  }
+  
+  .page-item-s{
+    padding: 4px;
+   
+  }
+  .page-item-s a{
+    border-radius: 7px;
+    background-color: rgba(200, 227, 243, 0.747);
+  }
+  @media (min-width: 1115px) {
+    .ps-sm-5 {
+        padding-left: 30px !important;
+        /* padding-top: 50px; */
+
+    }
+  }
+  @media (max-width: 1114px) {
+    .ps-sm-5 {
+        padding-left: 0px !important;
+        /* padding-top: 50px; */
+
+    }
+  }
+  @media (max-width: 888px) {
+    .ps-sm-5 {
+        padding-left: 20px !important;
+        /* padding-top: 50px; */
+
+    }
+  }
+  @media (max-width: 720px) {
+    .ps-sm-5 {
+        padding-left: 40px !important;
+        /* padding-top: 50px; */
+
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .ps-sm-5 {
+        padding-left: 50px !important;
+        /* padding-top: 50px; */
+
+    }
+  }
+  @media (max-width: 550px) {
+    .ps-sm-5 {
+        padding-left: 70px !important;
+        /* padding-top: 50px; */
+
+    }
+  }
+  .h-20px {
+    height: 20px !important;
+  }
+  .links-t a{
+    text-decoration: none !important;
+    color: black 
+  }
+  .links-t a:hover{
+    color: rgb(61, 128, 214) 
+  }
+  .text-orange{
+    color: rgb(255, 170, 12);
+  }
+  .butt-hove2:hover{
+    background-color: rgb(207, 10, 10) !important;
+    color: white !important;
+  }
+  .butt-hove1:hover{
+    background-color: rgb(3, 116, 3) !important;
+    color: white !important;
+  }
+  
+  tr:hover .table-hov{
+    color: black !important;
+    font-weight: bold !important;
+  }
+  .text-purple{
+    color: rgb(122, 30, 207);
+  }

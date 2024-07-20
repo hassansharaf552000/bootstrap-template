@@ -1,0 +1,18 @@
+.logo{
+    width: 150px;
+}
+
+
+
+
+ .logo2{
+    width: 50px;
+} 
+
+header{
+    background-image: url(../images/pexels-henri-mathieu-8349233.jpg);
+    background-position: center center;
+    background-size: 95% 95% ;
+    background-repeat: no-repeat;
+}
+

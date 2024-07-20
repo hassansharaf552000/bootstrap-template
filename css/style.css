@@ -1,0 +1,159 @@
+.nav-img {
+    width: 150px;
+}
+
+.footer-img {
+    width: 50px;
+}
+
+.avatar-img {
+    width: 50PX;
+    height: 50PX;
+    object-fit: cover;
+    object-position: center;
+
+
+}
+
+.change-my-color {
+    fill: #EECDD3;
+}
+
+.change-my-color-2 {
+    fill: #5ed2e4a6;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.carousel-item {
+    display: none;
+    /* Initially hide all carousel items */
+}
+
+.carousel-item.active {
+    display: block;
+    /* Display active carousel item */
+}
+
+.card {
+    margin: 0 10px;
+}
+
+.moving {
+    position: absolute;
+    top: 25%;
+    left: 75%;
+
+}
+
+.moving2 {
+    position: absolute;
+    top: 800%;
+    left: 15%;
+
+}
+
+body {
+    font-family: "Heebo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero-section {
+    background-color: #fff;
+    padding: 60px 0;
+    position: relative;
+}
+
+.hero-text {
+    max-width: 600px;
+    margin-top: 50px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.highlight {
+    background-color: yellow;
+    display: inline-block;
+}
+
+.hero-text p {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+.hero-text ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.hero-text ul li {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 16px;
+    color: #555;
+}
+
+.hero-text ul li i {
+    margin-right: 5px;
+    color: #007bff;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.hero-buttons .btn {
+    margin-right: 10px;
+}
+
+.hero-image {
+    position: relative;
+    width: 100%;
+}
+
+.icon-badge {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.congrats-badge {
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    transform: translateY(50%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.congrats-badge img {
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.congrats-badge .badge-text {
+    margin-left: 10px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}

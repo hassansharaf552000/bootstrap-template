@@ -1,0 +1,10 @@
+{
+    "eslint.enable": false,
+    "cSpell.words": [
+        "adhm",
+        "divs",
+        "Eduport",
+        "Mirna"
+    ],
+    "liveServer.settings.port": 5501
+}

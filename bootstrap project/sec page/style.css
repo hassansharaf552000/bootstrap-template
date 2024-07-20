@@ -1,0 +1,577 @@
+#logo-img{
+    height: 40px;
+}
+#bell-img{
+    height: 40px; 
+}
+#card-bell{
+    width: 400px;
+}
+
+
+
+.img-shop{
+  height: 80px;
+}
+
+.card-shop{
+    width: 400px;
+    height: 300px;
+}
+
+#endnav-img{
+    height: 50px;
+}
+
+@media (max-width: 991.98px) {
+ 
+}
+.navbar-expand-xl .dropdown-toggle:after {
+  content: "\f107";
+  font-family: "Font Awesome 5 Free";
+  margin-left: 0.35rem;
+  font-weight: 900;
+  vertical-align: middle;
+  border: none;
+}
+.navbar-expand-xl .dropdown-submenu.dropend .dropdown-toggle:after {
+  content: "\f141";
+  font-family: "Font Awesome 5 Free";
+  right: .5rem;
+}
+.navbar-expand-xl .dropdown-submenu.dropstart .dropdown-toggle:after {
+    /* content: "\f141";
+  font-family: "Font Awesome 5 Free"; */
+  margin-right: 0;
+  right: 1rem;
+  position: absolute;
+}
+
+@media (min-width: 1200px) {
+
+  .navbar-expand-xl .navbar-nav .dropdown > .dropdown-menu {
+    top: 120%;
+    visibility: hidden;
+    opacity: 0;
+    display: block;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  .navbar-expand-xl .navbar-nav .dropdown:hover > .dropdown-menu {
+    display: block;
+    top: 100%;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .navbar-expand-xl .navbar-nav .dropdown .dropdown-submenu > .dropdown-menu {
+    visibility: hidden;
+    opacity: 0;
+    display: block;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  .navbar-expand-xl .navbar-nav .dropdown .dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-box-shadow: 0px 0px 40px rgba(29, 58, 83, 0.15);
+            box-shadow: 0px 0px 40px rgba(29, 58, 83, 0.15);
+    margin-left: 0.5rem;
+  }
+  .navbar-expand-xl .navbar-nav .dropdown > .dropdown-toggle:active {
+    pointer-events: none;
+  }
+  .navbar-expand-xl .navbar-nav .nav-link {
+    line-height: 40px;
+    font-weight: 500;
+  }
+  .navbar-expand-xl .dropdown-menu .dropdown-toggle:after {
+    position: absolute;
+  }
+  .navbar-expand-xl .dropdown-menu-shadow-stacked {
+    z-index: 5;
+  }
+  .navbar-expand-xl .dropdown-menu-shadow-stacked .dropdown-submenu {
+    z-index: unset !important;
+  }
+  .navbar-expand-xl .dropdown-menu-shadow-stacked .dropdown-menu {
+    z-index: -1;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+  }
+  .navbar-expand-xl .dropdown-menu-shadow-stacked .dropdown-menu > * {
+    z-index: 1;
+    position: relative;
+  }
+  .navbar-expand-xl .dropdown-menu-shadow-stacked .dropdown-menu:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: var(--bs-body-bg);
+    -webkit-box-shadow: 0px 0px 40px rgba(29, 58, 83, 0.15);
+            box-shadow: 0px 0px 40px rgba(29, 58, 83, 0.15);
+    border-radius: inherit;
+  }
+  .navbar-expand-xl .dropdown-menu-shadow-stacked .dropdown-menu li {
+    position: relative;
+  }
+}
+
+
+
+.avatar-img{
+    height: 90px;
+}
+.btn-blue{
+    background-color: rgb(25, 25, 78);
+}
+.img-star{
+    height: 480px;
+}
+.img-badg{
+    height: 70px;
+}
+
+
+
+
+
+
+
+.choices-sm .choices .choices__inner {
+  padding: 0.2rem 1rem 0.2rem 1rem !important;
+}
+
+
+
+
+
+
+
+
+
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.avatar-group {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.avatar-group > li {
+  position: relative;
+}
+.avatar-group > li:not(:last-child) {
+  margin-right: -0.8rem;
+}
+.avatar-group .avatar-img {
+  border: 2px solid var(--bs-body-bg);
+}
+.avatar-xl {
+  height: 5.125rem;
+  width: 5.125rem;
+}
+.avatar {
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+  display: inline-block !important;
+}
+.smaller {
+  font-size: 0.7em;
+  font-weight: 400;
+}
+
+
+
+.align-items-center {
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+.avatar-xl {
+  height: 5.125rem;
+  width: 5.125rem;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+.position-absolute {
+  position: absolute !important;
+}
+.bottom-0 {
+  bottom: 0 !important;
+}
+.end-0 {
+  right: 0 !important;
+}
+.position-relative {
+  position: relative !important;
+}
+.top-50 {
+  top: 50% !important;
+}
+.start-50 {
+  left: 50% !important;
+}
+.translate-middle {
+  -webkit-transform: translate(-50%, -50%) !important;
+          transform: translate(-50%, -50%) !important;
+}
+sub,
+sup {
+  position: relative;
+  font-size: 0.75em;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+
+
+
+
+.fill-danger{
+    fill: rgb(200, 40, 40);
+}
+.card-subject{
+    height: 400px;
+}
+.card-purple{
+    background-color: rgb(197, 165, 226);
+}
+.card-orange{
+    background-color: rgb(243, 179, 127);  
+}
+.card-info{
+    background-color:rgb(170, 218, 239); 
+}
+.img-about{
+    height: 550px;
+    width: 420px;
+}
+.img-about2{
+    height: 250px;
+}
+.cl-about2{
+    position: relative;
+    top: 0px;
+    right: 50px;
+}
+.list-subject{
+    border: 0px;
+}
+.video-cap{
+color: black;
+    position: absolute;
+    top: 400px;
+    right: 350px;
+}
+
+.fill-orange{
+    fill: orange;
+}
+.fill-warning{
+    fill: rgb(243, 205, 13);
+   
+}
+.figure-svg{
+    position: absolute;
+   top: 1500px;
+    left: 1330px;
+
+}
+
+.fill-primary{
+    fill: rgb(154, 154, 246);
+}
+.svg-primary {
+    position: absolute;
+    top: 350px;
+    left: 500px;
+}
+.svg-box{
+    position: absolute;
+    right: 1100px;
+    bottom: 0px;
+    top: 00px;
+}
+.svg-box2{
+    position: absolute;
+    right: 00px;
+    bottom: 0px;
+    top: 00px;
+    left: 1050px;
+
+}
+.fill-info {
+    fill: skyblue;
+}
+.fill-cir{
+    fill: rgb(253, 211, 132);
+}
+.img-gallary1{
+    height: 280px;
+}
+.img-gallary2{
+    width: 100%;
+    height: 590px;
+}
+@media (max-width:990px) {
+    .img-gallary1{
+        height: 480px;
+    }
+    @media (max-width:767px) {
+      .img-gallary1{
+        width: 100%;}
+      }
+      
+    .video-cap{
+        display:none
+        }
+    }
+    .figure-svg{
+      position: absolute;
+      /* right: 1600px; */
+      left: 1330px;
+      /* top: 1530px; */
+    }
+    .svg-info{
+      position: absolute;
+      top: 2000px;
+      left: 1100px;
+  }
+    @media (max-width:1350px) {
+      .video-cap{
+        display:none
+        }
+    .figure-svg {
+      position: absolute;
+     
+      left:1100px;
+    }
+    .svg-info{
+      position: absolute;
+      top: 2050px;
+      left: 900px;
+  }
+  }
+  @media (max-width:1300px) {
+    .figure-svg {
+      position: absolute;
+     
+      left:1080px;
+    }
+    .svg-info{
+      position: absolute;
+      top: 2040px;
+      left: 880px;
+  }
+  }
+  @media (max-width:1285px) {
+    .figure-svg {
+      position: absolute;
+     
+      left:1050px;
+    }
+    .svg-info{
+      position: absolute;
+      top: 2030px;
+      left: 850px;
+  }
+  }
+  @media (max-width:1200px) {
+    .figure-svg {
+      position: absolute;
+     
+      left:1000px;
+    }
+    .svg-info{
+      position: absolute;
+      top: 2030px;
+      left: 825px;
+  }
+  }
+  @media (max-width:1150px) {
+    .figure-svg {
+      position: absolute;
+     
+      left:950px;
+    }
+    .svg-info{
+      position: absolute;
+      top: 2030px;
+      left: 805px;
+  }
+  }
+  @media (max-width:1030px) {
+    .svg-info{
+      position: absolute;
+      top: 2030px;
+      left: 730px;
+  }
+  }
+  @media (max-width:990px) {
+    .figure-svg {
+      position: absolute;
+     
+      left:690px;
+      top: 3100px;
+    }
+    .svg-info{
+      position: absolute;
+      top: 3650px;
+      left: 430px;
+  }
+  }
+  @media (max-width:973px) {
+    .figure-svg {
+      position: absolute;
+     
+      left:670px;
+      top: 3050px;
+    }
+    .svg-info{
+      position: absolute;
+      top: 3600px;
+      left: 430px;
+  }
+  }
+  @media (max-width:900px) {
+    .figure-svg {
+      position: absolute;
+     
+      left:630px;
+      top: 3050px;
+    }
+    .svg-info{
+      position: absolute;
+      top: 3600px;
+      left: 410px;
+  }
+  }
+  @media (max-width:800px) {
+    .figure-svg {
+      position: absolute;
+     
+      left:580px;
+      top: 3050px;
+    }
+    .svg-info{
+      position: absolute;
+      top: 3600px;
+      left: 360px;
+  }
+  }
+  @media (max-width:767px) {
+    .figure-svg {
+      position: absolute;
+     
+      left:460px;
+      top: 3400px;
+    }
+    .img-about{
+     
+      margin-left: 50px;
+      margin-top: 80px;
+    }
+    .svg-info{
+      position: absolute;
+      top: 3950px;
+      left: 210px;
+  }
+  }
+  @media (max-width:575px) {
+    .figure-svg {
+      position: absolute;
+     
+      left:380px;
+      top: 4400px;
+    }
+    .img-about{
+     
+      margin-left: 50px;
+      margin-top: 80px;
+    }
+    .svg-info{
+      position: absolute;
+      top: 4920px;
+      left: 100px;
+  }
+  }
+
+
+
+
+
+
+
+/* gallary */
+ 
+  .card .card-element-hover {
+    visibility: hidden;
+    margin-top: 30px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 9;
+  }
+  
+  .card:hover .card-element-hover {
+    visibility: visible;
+    margin-top: 0px;
+    opacity: 1;
+  }
+  .card-overlay-hover:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    background-color: #24292d;
+    display: block;
+  }
+ 
+
+
+  .btn-white-shadow {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.4);
+    background-color: #fff;
+  }
+  .btn-white-shadow:active, .btn-white-shadow:hover {
+    background-color: #fff;
+    box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.4);
+  }
+  
+  
+  .card:hover .card-overlay-hover:before {
+    opacity: 0.5;
+  }

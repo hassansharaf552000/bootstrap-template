@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assests/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assests/couses.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-xl navbar-light  ">
+    <div class="container ">
+      <a class="navbar-brand small-sc" href="#">
+        <img src="./assests/images/logo.svg" />
+      </a>
+      
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Demos <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <ul class="dropdown-menu shadow-lg" aria-labelledby="navbarDropdown">
+              <li> <a class="dropdown-item" href="#">Home Default</a></li>
+              <li> <a class="dropdown-item" href="#">Home Education</a></li>
+              <li> <a class="dropdown-item" href="#">Home Academy</a></li>
+              <li> <a class="dropdown-item" href="#">Home Course</a></li>
+              <li> <a class="dropdown-item" href="#">Home University</a></li>
+              <li> <a class="dropdown-item" href="#">Home Kindergarten</a></li>
+              <li> <a class="dropdown-item" href="#">Home Landing</a></li>
+              <li> <a class="dropdown-item" href="#">Home Tutor</a></li>
+              <li> <a class="dropdown-item" href="#">Home School</a></li>
+              <li> <a class="dropdown-item" href="#">Home Abroad</a></li>
+              <li> <a class="dropdown-item" href="#">Home Workshop</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Pages <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li class="dropdown-submenu dropend">
+                <a class="dropdown-item dropdown-toggle" href="#">Course</a>
+                <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
+                  <li> <a class="dropdown-item" href="#">Course Categories</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li> <a class="dropdown-item" href="#">Course Grid Classic</a></li>
+                  <li> <a class="dropdown-item" href="#">Course Grid Minimal</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li> <a class="dropdown-item" href="#">Course List Classic</a></li>
+                  <li> <a class="dropdown-item" href="#">Course List Minimal</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li> <a class="dropdown-item" href="#">Course Detail Classic</a></li>
+                  <li> <a class="dropdown-item" href="#">Course Detail Minimal</a></li>
+                  <li> <a class="dropdown-item" href="#">Course Detail Advance</a></li>
+                  <li> <a class="dropdown-item" href="#">Course Detail Module</a></li>
+                  <li> <a class="dropdown-item" href="#">Course Full Screen Video</a></li>
+                </ul>
+              </li>
+
+              <!-- Dropdown submenu -->
+              <li class="dropdown-submenu dropend">
+                <a class="dropdown-item dropdown-toggle" href="#">About</a>
+                <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
+                  <li> <a class="dropdown-item" href="#">About Us</a></li>
+                  <li> <a class="dropdown-item" href="#">Contact Us</a></li>
+                  <li> <a class="dropdown-item" href="#">Blog Grid</a></li>
+                  <li> <a class="dropdown-item" href="#">Blog Masonry</a></li>
+                  <li> <a class="dropdown-item" href="#">Blog Detail</a></li>
+                  <li> <a class="dropdown-item" href="#">Pricing</a></li>
+                </ul>
+              </li>
+
+              <!-- Dropdown submenu -->
+              <li class="dropdown-submenu dropend">
+                <a class="dropdown-item dropdown-toggle" href="#">Hero Banner</a>
+                <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
+                  <li> <a class="dropdown-item" href="#">Hero Form</a></li>
+                  <li> <a class="dropdown-item" href="#">Hero Vector</a></li>
+                  <li>
+                    <p class="dropdown-item mb-0">Coming soon....</p>
+                  </li>
+                </ul>
+              </li>
+
+              <li> <a class="dropdown-item" href="#">Instructor List</a></li>
+              <li> <a class="dropdown-item" href="#">Instructor Single</a></li>
+              <li> <a class="dropdown-item" href="#">Become an Instructor</a></li>
+              <li> <a class="dropdown-item" href="#">Abroad Single</a></li>
+              <li> <a class="dropdown-item" href="#">Workshop Detail</a></li>
+              <li> <a class="dropdown-item" href="#">Event Detail</a></li>
+
+              <!-- Dropdown submenu -->
+              <li class="dropdown-submenu dropend">
+                <a class="dropdown-item dropdown-toggle" href="#">Shop</a>
+                <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
+                  <li> <a class="dropdown-item" href="#">Shop grid</a></li>
+                  <li> <a class="dropdown-item" href="#">Product detail</a></li>
+                  <li> <a class="dropdown-item" href="#">Cart</a></li>
+                  <li> <a class="dropdown-item" href="#">Checkout</a></li>
+                  <li> <a class="dropdown-item" href="#">Empty Cart</a></li>
+                  <li> <a class="dropdown-item" href="#">Wishlist</a></li>
+                </ul>
+              </li>
+
+              <!-- Dropdown submenu -->
+              <li class="dropdown-submenu dropend">
+                <a class="dropdown-item dropdown-toggle" href="#">Help</a>
+                <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
+                  <li> <a class="dropdown-item" href="#">Help Center</a></li>
+                  <li> <a class="dropdown-item" href="#">Help Center Single</a></li>
+                  <li> <a class="dropdown-item" href="#">FAQs</a></li>
+                </ul>
+              </li>
+
+              <!-- Dropdown submenu -->
+              <li class="dropdown-submenu dropend">
+                <a class="dropdown-item dropdown-toggle" href="#">Authentication</a>
+                <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
+                  <li> <a class="dropdown-item" href="#">Sign In</a></li>
+                  <li> <a class="dropdown-item" href="#">Sign Up</a></li>
+                  <li> <a class="dropdown-item" href="#">Forgot Password</a></li>
+                </ul>
+              </li>
+
+              <!-- Dropdown submenu -->
+              <li class="dropdown-submenu dropend">
+                <a class="dropdown-item dropdown-toggle" href="#">Form</a>
+                <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
+                  <li> <a class="dropdown-item" href="#">Request a demo</a></li>
+                  <li> <a class="dropdown-item" href="#">Book a Class</a></li>
+                  <li> <a class="dropdown-item" href="#">Free Access</a></li>
+                  <li> <a class="dropdown-item" href="#">Admission Form</a></li>
+                </ul>
+              </li>
+
+              <!-- Dropdown submenu -->
+              <li class="dropdown-submenu dropend">
+                <a class="dropdown-item dropdown-toggle" href="#">Specialty</a>
+                <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
+                  <li> <a class="dropdown-item" href="#">Error 404</a></li>
+                  <li> <a class="dropdown-item" href="#">Coming Soon</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Accounts <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li class="dropdown-submenu dropend">
+                <a class="dropdown-item dropdown-toggle" href="#"><i
+                    class="fas fa-user-tie fa-fw me-1"></i>Instructor</a>
+                <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
+                  <li> <a class="dropdown-item" href="#"><i
+                        class="bi bi-grid-fill fa-fw me-1"></i>Dashboard</a> </li>
+                  <li> <a class="dropdown-item" href="#"><i
+                        class="bi bi-basket-fill fa-fw me-1"></i>Courses</a> </li>
+                  <li> <a class="dropdown-item" href="#"><i
+                        class="bi bi-file-earmark-plus-fill fa-fw me-1"></i>Create Course</a> </li>
+                  <li> <a class="dropdown-item" href="#"><i
+                        class="bi bi-file-check-fill fa-fw me-1"></i>Course Added</a> </li>
+                  <li> <a class="dropdown-item" href="#"><i
+                        class="bi bi-question-diamond fa-fw me-1"></i>Quiz</a> </li>
+                  <li> <a class="dropdown-item" href="#"><i
+                        class="fas fa-chart-line fa-fw me-1"></i>Earnings</a> </li>
+                  <li> <a class="dropdown-item" href="#"><i
+                        class="fas fa-user-graduate fa-fw me-1"></i>Students</a> </li>
+                  <li> <a class="dropdown-item" href="#"><i
+                        class="bi bi-cart-check-fill fa-fw me-1"></i>Orders</a> </li>
+                  <li> <a class="dropdown-item" href="#"><i
+                        class="bi bi-star-fill fa-fw me-1"></i>Reviews</a> </li>
+                  <li> <a class="dropdown-item" href="#"><i
+                        class="fas fa-wallet fa-fw me-1"></i>Payout</a> </li>
+                </ul>
+              </li>
+
+              <!-- Dropdown submenu -->
+              <li class="dropdown-submenu dropend">
+                <a class="dropdown-item dropdown-toggle" href="#"><i
+                    class="fas fa-user-graduate fa-fw me-1"></i>Student</a>
+                <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
+                  <li> <a class="dropdown-item" href="#"><i
+                        class="bi bi-grid-fill fa-fw me-1"></i>Dashboard</a> </li>
+                  <li> <a class="dropdown-item" href="#"><i
+                        class="bi bi-card-checklist fa-fw me-1"></i>My Subscriptions</a> </li>
+                  <li> <a class="dropdown-item" href="#"><i
+                        class="bi bi-basket-fill fa-fw me-1"></i>Courses</a> </li>
+                  <li> <a class="dropdown-item" href="#"><i
+                        class="far fa-fw fa-file-alt me-1"></i>Course Resume</a> </li>
+                  <li> <a class="dropdown-item" href="#"><i
+                        class="bi bi-question-diamond fa-fw me-1"></i>Quiz </a> </li>
+                  <li> <a class="dropdown-item" href="#"><i
+                        class="bi bi-credit-card-2-front-fill fa-fw me-1"></i>Payment Info</a> </li>
+                  <li> <a class="dropdown-item" href="#"><i
+                        class="fas bi-cart-check-fill fa-fw me-1"></i>Wishlist</a> </li>
+                </ul>
+              </li>
+
+              <li> <a class="dropdown-item" href="#"><i
+                    class="fas fa-user-cog fa-fw me-1"></i>Admin</a> </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li> <a class="dropdown-item" href="#"><i
+                    class="fas fa-fw fa-edit me-1"></i>Edit Profile</a> </li>
+              <li> <a class="dropdown-item" href="#"><i
+                    class="fas fa-fw fa-cog me-1"></i>Settings</a> </li>
+              <li> <a class="dropdown-item" href="#"><i
+                    class="fas fa-fw fa-trash-alt me-1"></i>Delete Profile</a> </li>
+
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <!-- Dropdown Level -->
+              <li class="dropdown-submenu dropend">
+                <div class="d-flex">
+                  <a class="dropdown-item " href="#">Dropdown levels</a> <i class="fas fa-ellipsis-h pt-2 pe-2 icon-c"></i>
+                </div>
+                
+                <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
+
+                  <!-- dropdown submenu open right -->
+                  <li class="dropdown-submenu dropend">
+                    <a class="dropdown-item dropdown-toggle" href="#">Dropdown (end)</a>
+                    <ul class="dropdown-menu" data-bs-popper="none">
+                      <li> <a class="dropdown-item" href="#">Dropdown item</a> </li>
+                      <li> <a class="dropdown-item" href="#">Dropdown item</a> </li>
+                    </ul>
+                  </li>
+                  <li> <a class="dropdown-item" href="#">Dropdown item</a> </li>
+
+                  <!-- dropdown submenu open left -->
+                  <li class="dropdown-submenu dropstart">
+                    <a class="dropdown-item dropdown-toggle" href="#">Dropdown (start)</a>
+                    <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="none">
+                      <li> <a class="dropdown-item" href="#">Dropdown item</a> </li>
+                      <li> <a class="dropdown-item" href="#">Dropdown item</a> </li>
+                    </ul>
+                  </li>
+                  <li> <a class="dropdown-item" href="#">Dropdown item</a> </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Components</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <i class="fas fa-ellipsis-h"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="https://support.webestica.com/" target="_blank">
+                  <i class="text-warning fa-fw bi bi-life-preserver me-2"></i>Support
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#" target="_blank">
+                  <i class="text-danger fa-fw bi bi-card-text me-2"></i>Documentation
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://eduport.webestica.com/rtl/" target="_blank">
+                  <i class="text-info fa-fw bi bi-toggle-off me-2"></i>RTL demo
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://themes.getbootstrap.com/store/webestica/" target="_blank">
+                  <i class="text-success fa-fw bi bi-cloud-download-fill me-2"></i>Buy Eduport!
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li>
+                <a class="dropdown-item" href="#" target="_blank">
+                  <i class="text-orange fa-fw bi bi-puzzle-fill me-2"></i>Components
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <i class="text-purple fa-fw bi bi-stickies-fill me-2"></i>Snippets
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="nav my-3 my-xl-0 px-4 flex-nowrap align-items-center">
+					<div class="nav-item w-100">
+						<form class="position-relative">
+							<input class="form-control pe-5 bg-transparent" type="search" placeholder="Search" aria-label="Search">
+							<button class="bg-transparent p-2 position-absolute top-50 end-0 translate-middle-y border-0 text-primary-hover text-reset" type="submit">
+								<i class="fas fa-search fs-6 "></i>
+							</button>
+						</form>
+					</div>
+				</div>
+				<!-- Nav Search END -->
+			</div>
+      <div class="dropdown navbar-dropdown-image1 drop-img ms-1 ms-lg-0">
+				<a class="avatar  avatar-sm p-0 ps-3  " href="#" id="profileDropdown" role="button" data-bs-auto-close="outside" data-bs-display="static" data-bs-toggle="dropdown" aria-expanded="false">
+					<img class="avatar-img rounded-circle " src="assests/images/01.jpg" alt="avatar" style="width:50%;">
+				</a>
+				<ul class="dropdown-menu dropdown-animation dropdown-menu-end shadow pt-3 p-3 navbar-dropdown-image" aria-labelledby="profileDropdown">
+					<!-- Profile info -->
+					<li class="px-2 mb-1">
+						<div class="d-flex align-items-center">
+							<!-- Avatar -->
+							<div class="avatar pe-3 ">
+								<img class="avatar-img rounded-circle shadow" src="assests/images/01.jpg" style="width:100%;" alt="avatar">
+							</div>
+							<div>
+								<a class="h6 text-decoration-none" href="#">Lori Ferguson</a>
+								<p class="small m-0 text-muted">example@gmail.com</p>
+							</div>
+						</div>
+					</li>
+          <li> <hr class="dropdown-divider"></li>
+					<!-- Links -->
+					<li><a class="dropdown-item text-muted " href="#"><i class="bi bi-person fa-fw me-2"></i>Edit Profile</a></li>
+					<li><a class="dropdown-item text-muted" href="#"><i class="bi bi-gear fa-fw me-2"></i>Account Settings</a></li>
+					<li><a class="dropdown-item text-muted" href="#"><i class="bi bi-info-circle fa-fw me-2"></i>Help</a></li>
+					<li><a class="dropdown-item bg-danger-soft-hover text-muted" href="#"><i class="bi bi-power fa-fw me-2"></i>Sign Out</a></li>
+					<li> <hr class="dropdown-divider"></li>
+          <li>
+						<div class="bg-light theme-icon-active d-flex align-items-center p-1 rounded mt-2">
+							<button type="button" class="btn btn-sm mb-0 active border-1  " data-bs-theme-value="light">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-sun fa-fw mode-switch" viewBox="0 0 16 16">
+									<path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+									<use href="#"></use>
+								</svg> Light
+							</button>
+							<button type="button" class="btn btn-sm mb-0" data-bs-theme-value="dark">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-stars fa-fw mode-switch" viewBox="0 0 16 16">
+									<path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z"/>
+									<path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+									<use href="#"></use>
+								</svg> Dark
+							</button>
+							<button type="button" class="btn btn-sm mb-0 " data-bs-theme-value="auto">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-half fa-fw mode-switch" viewBox="0 0 16 16">
+									<path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+									<use href="#"></use>
+								</svg> Auto
+							</button>
+						</div>
+					</li> 
+				</ul>
+			</div>
+			<!-- Profile START -->
+		</div>
+      </div>
+    </div>
+    </div>
+    
+  </nav>
+<main>
+  <section class="pt-0 ">
+    <!-- Main banner background image -->
+    <div class="container-fluid px-0 ">
+      <div class="bg-blue h-200px h-md-200px rounded-0 sss" >
+      </div>
+    </div>
+    <div class="container-fluid  mt-n4  ">
+      <div class="row ">
+        <!-- Profile banner START -->
+        <div class="col-12 sss1">
+          <div class="card bg-transparent border-0 card-body card-create p-0">
+            <div class="row d-flex justify-content-between ">
+              <!-- Avatar -->
+              <div class="col-2 mt-4 mt-md-0">
+                <div class="avatar avatar-xxl mt-n3">
+                  <img class="avatar-img rounded-circle border border-white border-3 shadow container-fluid-n" src="assests/images/01.jpg" alt="" style="width: 130px;">
+                </div>
+              </div>
+              <!-- Profile info -->
+              <div class="col ps-sm-5 ps-xl-1 d-md-flex justify-content-between align-items-center mt-4">
+                <div>
+                  <h1 class="my-1 fs-4 fw-bold">Lori Stevens <i class="bi bi-patch-check-fill text-info small"></i></h1>
+                  <ul class="list-inline mb-0">
+                    <li class="list-inline-item h6 fw-light me-3 mb-1 mb-sm-0"><i class="fas fa-star text-warning me-2"></i>4.5/5.0</li>
+                    <li class="list-inline-item h6 fw-light me-3 mb-1 mb-sm-0"><i class="fas fa-user-graduate  me-2" style="color: rgb(252, 130, 73);"></i>12k Enrolled Students</li>
+                    <li class="list-inline-item h6 fw-light me-3 mb-1 mb-sm-0"><i class="fas fa-book text-purple me-2" style="color: rgb(120, 54, 136);" ></i>25 Courses</li>
+                  </ul>
+                </div>
+                <!-- Button -->
+                <div class="d-flex align-items-center mt-2 mt-md-0 me-xl-5-button">
+                  <a href="#" class="btn btn-success mb-0">Create a course</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Profile banner END -->
+  
+          <!-- Advanced filter responsive toggler START -->
+          <!-- Divider -->
+          <hr class="d-xl-none">
+          <div class="col-12 col-xl-3 d-flex justify-content-between align-items-center">
+            <a class="h6 mb-0 fw-bold d-xl-none text-decoration-none" href="#">Menu</a>
+            <button class="btn btn-primary d-xl-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar">
+              <i class="fas fa-sliders-h"></i>
+            </button>
+          </div>
+          <!-- Advanced filter responsive toggler END -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="pt-0 main-section">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Left sidebar START -->
+        <div class="col-xl-3">
+          <!-- Responsive offcanvas body START -->
+          <div class="offcanvas-xl offcanvas-end" tabindex="-1" id="offcanvasSidebar">
+            <!-- Offcanvas header -->
+            <div class="offcanvas-header bg-light">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">My profile</h5>
+              <button  type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasSidebar" aria-label="Close"></button>
+            </div>
+            <!-- Offcanvas body -->
+            <div class="offcanvas-body p-3 p-xl-0">
+              <div class="bg-dark border rounded-3 pb-0 p-3 w-100">
+                <!-- Dashboard menu -->
+                <div class="list-group list-group-dark list-group-borderless ">
+                  <a class="list-group-item-dark text-decoration-none text-light list-group-edit" href=""><i class="bi bi-ui-checks-grid fa-fw me-2"></i>Dashboard</a>
+                  <a class="list-group-item-dark text-decoration-none active list-group-edit" href=""><i class="bi bi-basket fa-fw me-2"></i>My Courses</a>
+                  <a class="list-group-item-dark text-decoration-none text-light list-group-edit" href=""><i class="bi bi-question-diamond fa-fw me-2"></i>Quiz</a>
+                  <a class="list-group-item-dark text-decoration-none text-light list-group-edit" href=""><i class="bi bi-graph-up fa-fw me-2"></i>Earnings</a>
+                  <a class="list-group-item-dark text-decoration-none text-light list-group-edit" href=""><i class="bi bi-people fa-fw me-2"></i>Students</a>
+                  <a class="list-group-item-dark text-decoration-none text-light list-group-edit" href=""><i class="bi bi-folder-check fa-fw me-2"></i>Orders</a>
+                  <a class="list-group-item-dark text-decoration-none text-light list-group-edit" href=""><i class="bi bi-star fa-fw me-2"></i>Reviews</a>
+                  <a class="list-group-item-dark text-decoration-none text-light list-group-edit" href=""><i class="bi bi-pencil-square fa-fw me-2"></i>Edit Profile</a>
+                  <a class="list-group-item-dark text-decoration-none text-light list-group-edit" href=""><i class="bi bi-wallet2 fa-fw me-2"></i>Payouts</a>
+                  <a class="list-group-item-dark text-decoration-none text-light list-group-edit" href=""><i class="bi bi-gear fa-fw me-2"></i>Settings</a>
+                  <a class="list-group-item-dark text-decoration-none text-light list-group-edit" href=""><i class="bi bi-trash fa-fw me-2"></i>Delete Profile</a>
+                  <a class="list-group-item-dark text-decoration-none text-danger bg-danger-hover list-group-edit-last" href=""><i class="fas fa-sign-out-alt fa-fw me-2"></i>Sign Out</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Responsive offcanvas body END -->
+        </div>
+        <!-- Left sidebar END -->
+  
+        <!-- Main content START -->
+        <div class="col-xl-9 " style="overflow-x:auto">
+          <!-- Card START -->
+          <div class="card border bg-transparent rounded-3" >
+            <!-- Card header START -->
+            <div class="card-header bg-transparent border-bottom">
+              <h3 class="mb-0">My Courses List</h3>
+            </div>
+            <!-- Card header END -->
+  
+            <!-- Card body START -->
+            <div class="card-body">
+  
+              <!-- Search and select START -->
+              <div class="row g-3 align-items-center justify-content-between mb-4">
+                <!-- Search -->
+                <div class="col-md-8">
+                  <form class="rounded position-relative">
+                    <input class="form-control pe-5 bg-transparent" type="search" placeholder="Search" aria-label="Search">
+                    <button class="bg-transparent p-2 position-absolute top-50 end-0 translate-middle-y border-0 text-primary-hover text-reset" type="submit">
+                  <i class="fas fa-search fs-6 "></i>
+                </button>
+                  </form>
+                </div>
+  
+                <!-- Select option -->
+                <div class="col-md-3">
+                  <!-- Short by filter -->
+                  <form>
+                    <select class="form-select js-choice border-1 z-index-9 bg-transparent" aria-label=".form-select-sm">
+                      <option value="">Sort by</option>
+                      <option>Free</option>
+                      <option>Newest</option>
+                      <option>Most popular</option>
+                      <option>Most Viewed</option>
+                    </select>
+                  </form>
+                </div>
+              </div>
+              <!-- Search and select END -->
+  
+              <!-- Course list table START -->
+              <div class=" table-responsive  border-0" >
+                <table class="table align-middle p-4 mb-0 table-hover ">
+                  <!-- Table head -->
+                  <thead >
+                    <tr >
+                      <th scope="col" class="border-0 rounded-start bg-black text-light p-3">Course Title</th>
+                      <th scope="col" class="border-0 bg-black text-light p-3">Enrolled</th>
+                      <th scope="col" class="border-0 bg-black text-light p-3">Status</th>
+                      <th scope="col" class="border-0 bg-black text-light p-3">Price</th>
+                      <th scope="col" class="border-0 rounded-end bg-black text-light p-3">Action</th>
+                    </tr>
+                  </thead>
+  
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <!-- Image -->
+                          <div class="w-60px">
+                            <img src="assests/images/08.jpg" class="rounded" alt="">
+                          </div>
+                          <div class="mb-0 ms-2 links-t">
+                            <!-- Title -->
+                            <h6><a href="#">Building Scalable APIs with GraphQL</a></h6>
+                            <!-- Info -->
+                            <div class="d-sm-flex">
+                              <p class="h6 fw-light mb-0 small me-3"><i class="fas fa-table text-orange me-2"></i>18 lectures</p>
+                              <p class="h6 fw-light mb-0 small"><i class="fas fa-check-circle text-success me-2"></i>6 Completed</p>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <!-- Enrolled item -->
+                      <td class="text-center text-sm-start text-muted table-hov">125</td>
+                      <!-- Status item -->
+                      <td>
+                        <div class="badge bg-success bg-opacity-10 text-success">Live</div>
+                      </td>
+                      <!-- Price item -->
+                      <td class="text-muted table-hov">$250</td>
+                      <!-- Action item -->
+                      <td>
+                        <a href="#" class="btn btn-sm  btn-round rounded-circle bg-success bg-opacity-10 text-success py-2 px-2 me-1 mb-0 butt-hove1"><i class="far fa-fw fa-edit"></i></a>
+                        <button class="btn btn-sm rounded-circle bg-danger bg-opacity-10 text-danger p-2 btn-round mb-0 butt-hove2"><i class="fas fa-fw fa-times"></i></button>
+                      </td>
+                    </tr>
+  
+                    <!-- Table item -->
+                    <tr>
+                      <!-- Course item -->
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <!-- Image -->
+                          <div class="w-60px">
+                            <img src="assests/images/10.jpg" class="rounded" alt="">
+                          </div>
+                          <div class="mb-0 ms-2 links-t">
+                            <!-- Title -->
+                            <h6><a href="#">Bootstrap 5 From Scratch</a></h6>
+                            <!-- Info -->
+                            <div class="d-sm-flex">
+                              <p class="h6 fw-light mb-0 small me-3"><i class="fas fa-table text-orange me-2"></i>0 lectures</p>
+                              <p class="h6 fw-light mb-0 small"><i class="fas fa-check-circle text-success me-2"></i>0 Completed</p>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <!-- Enrolled item -->
+                      <td class="text-center text-sm-start text-muted table-hov ">145</td>
+                      <!-- Status item -->
+                      <td>
+                        <div class="badge bg-secondary bg-opacity-10 text-secondary">Disable</div>
+                      </td>
+                      <!-- Price item -->
+                      <td class="text-muted table-hov">$350</td>
+                      <!-- Action item -->
+                      <td>
+                        <a href="#" class="btn btn-sm  btn-round rounded-circle bg-success bg-opacity-10 text-success py-2 px-2 me-1 mb-0 butt-hove1"><i class="far fa-fw fa-edit"></i></a>
+                        <button class="btn btn-sm rounded-circle bg-danger bg-opacity-10 text-danger p-2 btn-round mb-0 butt-hove2"><i class="fas fa-fw fa-times"></i></button>
+                      </td>
+                    </tr>
+  
+                    <!-- Table item -->
+                    <tr>
+                      <!-- Course item -->
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <!-- Image -->
+                          <div class="w-60px">
+                            <img src="assests/images/06.jpg" class="rounded" alt="">
+                          </div>
+                          <div class="mb-0 ms-2 links-t">
+                            <!-- Title -->
+                            <h6><a href="#">Angular - The Complete Guider</a></h6>
+                            <!-- Info -->
+                            <div class="d-sm-flex">
+                              <p class="h6 fw-light mb-0 small me-3"><i class="fas fa-table text-orange me-2"></i>37 lectures</p>
+                              <p class="h6 fw-light mb-0 small"><i class="fas fa-check-circle text-success me-2"></i>20 Completed</p>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <!-- Enrolled item -->
+                      <td class="text-center text-sm-start text-muted table-hov">145</td>
+                      <!-- Status item -->
+                      <td>
+                        <div class="badge bg-success bg-opacity-10 text-success">Live</div>
+                      </td>
+                      <!-- Price item -->
+                      <td class="text-muted table-hov">$652</td>
+                      <!-- Action item -->
+                      <td>
+                        <a href="#" class="btn btn-sm  btn-round rounded-circle bg-success bg-opacity-10 text-success py-2 px-2 me-1 mb-0 butt-hove1"><i class="far fa-fw fa-edit"></i></a>
+                        <button class="btn btn-sm rounded-circle bg-danger bg-opacity-10 text-danger p-2 btn-round mb-0 butt-hove2"><i class="fas fa-fw fa-times"></i></button>
+                      </td>
+                    </tr>
+  
+                    <!-- Table item -->
+                    <tr>
+                      <!-- Course item -->
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <!-- Image -->
+                          <div class="w-60px">
+                            <img src="assests/images/02.jpg" class="rounded" alt="">
+                          </div>
+                          <div class="mb-0 ms-2 links-t">
+                            <!-- Title -->
+                            <h6><a href="#">Graphic Design Masterclass</a></h6>
+                            <!-- Info -->
+                            <div class="d-sm-flex">
+                              <p class="h6 fw-light mb-0 small me-3"><i class="fas fa-table text-orange me-2"></i>58 lectures</p>
+                              <p class="h6 fw-light mb-0 small"><i class="fas fa-check-circle text-success me-2"></i>0 Completed</p>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <!-- Enrolled item -->
+                      <td class="text-center text-sm-start text-muted table-hov">0</td>
+                      <!-- Status item -->
+                      <td>
+                        <div class="badge bg-info bg-opacity-10 text-info">Applied</div>
+                      </td>
+                      <!-- Price item -->
+                      <td class="text-muted table-hov">$245</td>
+                      <!-- Action item -->
+                      <td>
+                        <a href="#" class="btn btn-sm  btn-round rounded-circle bg-success bg-opacity-10 text-success py-2 px-2 me-1 mb-0 butt-hove1"><i class="far fa-fw fa-edit"></i></a>
+                        <button class="btn btn-sm rounded-circle bg-danger bg-opacity-10 text-danger p-2 btn-round mb-0 butt-hove2"><i class="fas fa-fw fa-times"></i></button>
+                      </td>
+                    </tr>
+  
+                    <!-- Table item -->
+                    <tr>
+                      <!-- Course item -->
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <!-- Image -->
+                          <div class="w-60px">
+                            <img src="assests/images/04.jpg" class="rounded" alt="">
+                          </div>
+                          <div class="mb-0 ms-2 links-t">
+                            <!-- Title -->
+                            <h6><a href="#">Learn Invision</a></h6>
+                            <!-- Info -->
+                            <div class="d-sm-flex">
+                              <p class="h6 fw-light mb-0 small me-3"><i class="fas fa-table text-orange me-2"></i>16 lectures</p>
+                              <p class="h6 fw-light mb-0 small"><i class="fas fa-check-circle text-success me-2"></i>0 Completed</p>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <!-- Enrolled item -->
+                      <td class="text-center text-sm-start text-muted table-hov">0</td>
+                      <!-- Status item -->
+                      <td>
+                        <div class="badge bg-danger bg-opacity-10 text-danger">Rejected</div>
+                      </td>
+                      <!-- Price item -->
+                      <td class="text-muted table-hov">$365</td>
+                      <!-- Action item -->
+                      <td>
+                        <a href="#" class="btn btn-sm  btn-round rounded-circle bg-success bg-opacity-10 text-success py-2 px-2 me-1 mb-0 butt-hove1"><i class="far fa-fw fa-edit"></i></a>
+                        <button class="btn btn-sm rounded-circle bg-danger bg-opacity-10 text-danger p-2 btn-round mb-0 butt-hove2"><i class="fas fa-fw fa-times"></i></button>
+                      </td>
+                    </tr>
+  
+                    <!-- Table item -->
+                    <tr>
+                      <!-- Course item -->
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <!-- Image -->
+                          <div class="w-60px">
+                            <img src="assests/images/03.jpg" class="rounded" alt="">
+                          </div>
+                          <div class="mb-0 ms-2 links-t">
+                            <!-- Title -->
+                            <h6><a href="#">Create a Design System in Figma</a></h6>
+                            <!-- Info -->
+                            <div class="d-sm-flex">
+                              <p class="h6 fw-light mb-0 small me-3"><i class="fas fa-table text-orange me-2"></i>25 lectures</p>
+                              <p class="h6 fw-light mb-0 small"><i class="fas fa-check-circle text-success me-2"></i>0 Completed</p>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <!-- Enrolled item -->
+                      <td class="text-center text-sm-start text-muted table-hov">0</td>
+                      <!-- Status item -->
+                      <td>
+                        <div class="badge bg-info bg-opacity-10 text-info">Applied</div>
+                      </td>
+                      <!-- Price item -->
+                      <td class="text-muted table-hov">$135</td>
+                      <!-- Action item -->
+                      <td>
+                        <a href="#" class="btn btn-sm  btn-round rounded-circle bg-success bg-opacity-10 text-success py-2 px-2 me-1 mb-0 butt-hove1"><i class="far fa-fw fa-edit"></i></a>
+                        <button class="btn btn-sm rounded-circle bg-danger bg-opacity-10 text-danger p-2 btn-round mb-0 butt-hove2"><i class="fas fa-fw fa-times"></i></button>
+                      </td>
+                    </tr>
+  
+                    <!-- Table item -->
+                    <tr>
+                      <!-- Course item -->
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <!-- Image -->
+                          <div class="w-60px">
+                            <img src="assests/images/07.jpg" class="rounded" alt="">
+                          </div>
+                          <div class="mb-0 ms-2 links-t">
+                            <!-- Title -->
+                            <h6><a href="#">Deep Learning with React-Native</a></h6>
+                            <!-- Info -->
+                            <div class="d-sm-flex">
+                              <p class="h6 fw-light mb-0 small me-3"><i class="fas fa-table text-orange me-2"></i>18 lectures</p>
+                              <p class="h6 fw-light mb-0 small"><i class="fas fa-check-circle text-success me-2"></i>10 Completed</p>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                      <!-- Enrolled item -->
+                      <td class="text-center text-sm-start text-muted table-hov">186</td>
+                      <!-- Status item -->
+                      <td>
+                        <div class="badge bg-success bg-opacity-10 text-success">Live</div>
+                      </td>
+                      <!-- Price item -->
+                      <td class="text-muted table-hov">$256</td>
+                      <!-- Action item -->
+                      <td>
+                        <a href="#" class="btn btn-sm  btn-round rounded-circle bg-success bg-opacity-10 text-success py-2 px-2 me-1 mb-0 butt-hove1"><i class="far fa-fw fa-edit"></i></a>
+                        <button class="btn btn-sm rounded-circle bg-danger bg-opacity-10 text-danger p-2 btn-round mb-0 butt-hove2"><i class="fas fa-fw fa-times"></i></button>
+                      </td>
+                    </tr>
+  
+                    <!-- Table item -->
+                    <tr >
+                      <!-- Course item -->
+                      <td>
+                        <div class="d-flex align-items-center">
+                          <!-- Image -->
+                          <div class="w-60px">
+                            <img src="assests/images/11.jpg" class="rounded" alt="">
+                          </div>
+                          <div class="mb-0 ms-2 links-t">
+                            <!-- Title -->
+                            <h6><a href="#">Build Responsive Websites with HTML</a></h6>
+                            <!-- Info -->
+                            <div class="d-sm-flex">
+                              <p class="h6 fw-light mb-0 small me-3"><i class="fas fa-table text-orange me-2"></i>42 lectures</p>
+                              <p class="h6 fw-light mb-0 small"><i class="fas fa-check-circle text-success me-2"></i>25 Completed</p>
+                            </div>		
+                          </div>
+                        </div>
+                      </td>
+                      <!-- Enrolled item -->
+                      <td class="text-center text-sm-start text-muted table-hov">345</td>
+                      <!-- Status item -->
+                      <td>
+                        <div class="badge bg-success bg-opacity-10 text-success">Live</div>
+                      </td>
+                      <!-- Price item -->
+                      <td class="text-muted table-hov">$222</td>
+                      <!-- Action item -->
+                      <td>
+                        <a href="#" class="btn btn-sm  btn-round rounded-circle bg-success bg-opacity-10 text-success py-2 px-2 me-1 mb-0 butt-hove1"><i class="far fa-fw fa-edit"></i></a>
+                        <button class="btn btn-sm rounded-circle bg-danger bg-opacity-10 text-danger p-2 btn-round mb-0 butt-hove2"><i class="fas fa-fw fa-times"></i></button>
+                      </td>
+                    </tr>
+                  </tbody>
+                  <!-- Table body END -->
+                </table>
+              </div>
+              <!-- Course list table END -->
+  
+              <!-- Pagination START -->
+              <div class="d-sm-flex justify-content-sm-between align-items-sm-center mt-4 mt-sm-3">
+                <!-- Content -->
+                <p class="mb-0 text-center text-sm-start">Showing 1 to 8 of 20 entries</p>
+                <!-- Pagination -->
+                <nav class="d-flex  justify-content-center mb-0" aria-label="navigation">
+                  <ul class="pagination pagination-sm pagination-primary-soft d-flex flex-nowrap d-inline-block d-md-flex rounded mb-0">
+                    <li class="page-item mb-0 page-item-s"><a class="page-link rounded-start-3" href="#" tabindex="-1"><i class="fas fa-angle-left"></i></a></li>
+                    <li class="page-item mb-0 page-item-s"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item mb-0 active page-item-s"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item mb-0 page-item-s"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item mb-0 page-item-s"><a class="page-link rounded-end-3" href="#"><i class="fas fa-angle-right"></i></a></li>
+                  </ul>
+                </nav>
+              </div>
+              <!-- Pagination END -->
+            </div>
+            <!-- Card body START -->
+          </div>
+          <!-- Card END -->
+        </div>
+        <!-- Main content END -->
+      </div><!-- Row END -->
+    </div>
+  </section>
+</main>
+<footer class="bg-dark p-3 mt-5">
+	<div class="container">
+		<div class="row align-items-center">
+			<!-- Widget -->
+			<div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+				<!-- Logo START -->
+				<a href="#"> <img class="h-20px" src="assests/images/logo-light.svg" alt="logo"> </a>
+			</div>
+			
+			<!-- Widget -->
+			<div class="col-md-4 mb-3 mb-md-0">
+				<div class="text-center text-white text-primary-hover">
+					Copyrights ©2024 Eduport. Build by <a href="https://www.webestica.com/" target="_blank" class="text-white text-decoration-none">Webestica</a>.
+				</div>
+			</div>
+			<!-- Widget -->
+			<div class="col-md-4">
+				<!-- Rating -->
+				<ul class="list-inline mb-0 text-center text-md-end">
+					<li class="list-inline-item ms-2"><a href="#"><i class="text-white fab fa-facebook"></i></a></li>
+					<li class="list-inline-item ms-2"><a href="#"><i class="text-white fab fa-instagram"></i></a></li>
+					<li class="list-inline-item ms-2"><a href="#"><i class="text-white fab fa-linkedin-in"></i></a></li>
+					<li class="list-inline-item ms-2"><a href="#"><i class="text-white fab fa-twitter"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+<script src="./assests/bootstrap.bundle.min.js">
+</script>
+
+</html>

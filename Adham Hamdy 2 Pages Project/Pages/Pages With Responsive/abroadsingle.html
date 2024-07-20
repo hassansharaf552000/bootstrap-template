@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="I:/ITI/Bootstrap/Bootstrap/Project/Images/logo.svg">
+  <link rel="stylesheet" href="../../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <title>EduPort-Abroad Single</title>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0;
+      /* Adjust margin to remove the gap */
+    }
+
+    header {
+      background-color: whitesmoke;
+    }
+
+    header .container {
+      margin-left: 100px;
+    }
+
+    footer {
+      background-color: whitesmoke;
+      width: 100%;
+    }
+
+
+
+    .verified-icon {
+      color: green;
+    }
+
+    .custom-banner {
+      background-color: #d32f2f;
+      color: white;
+      padding: 40px;
+      position: relative;
+      overflow: hidden;
+      margin-left: 100px;
+      width: 87%;
+      border-radius: 10px;
+      margin-top: 70px;
+    }
+
+    .custom-banner h1 {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .custom-banner p {
+      margin-top: 20px;
+      font-size: 1rem;
+      width: 75%;
+    }
+
+    .custom-banner .btn {
+      background-color: #ffca28;
+      color: black;
+      border: none;
+      font-weight: bold;
+      height: 20%;
+    }
+
+    .circle {
+      position: absolute;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .circle1 {
+      width: 150px;
+      height: 150px;
+      top: 10px;
+      left: 10px;
+    }
+
+    .circle2 {
+      width: 50px;
+      height: 50px;
+      top: 30%;
+      right: 20%;
+    }
+
+    .circle3 {
+      width: 25px;
+      height: 25px;
+      bottom: 10px;
+      left: 30%;
+    }
+
+    .icon-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 50px;
+    }
+
+    .icon-container i {
+      font-size: 3rem;
+    }
+
+    .english-icon {
+      color: #00247d;
+      /* Union Jack Blue */
+    }
+
+    .french-icon {
+      color: #0055A4;
+      /* French Blue */
+    }
+
+    .german-icon {
+      color: #000000;
+      /* German Black */
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-white mt-3 ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="../../Images/logo.svg" style="width: 25%;margin-left: 100px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav  mb-2 mb-lg-0 ">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Demos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Home Default</a></li>
+              <li><a class="dropdown-item" href="#">Home Education</a></li>
+              <li><a class="dropdown-item" href="#">Home Academy</a></li>
+              <li><a class="dropdown-item" href="#">Home Course</a></li>
+              <li><a class="dropdown-item" href="#">Home University</a></li>
+              <li><a class="dropdown-item" href="#">Home School</a></li>
+              <li><a class="dropdown-item" href="#">Home WorkShop</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="navbar-nav mb-2 mb-lg-0 ">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Instructor List</a></li>
+              <li><a class="dropdown-item" href="#">Instructor Single</a></li>
+              <li><a class="dropdown-item" href="#">Become an Instructor</a></li>
+              <li><a class="dropdown-item" href="#">Abroad Single</a></li>
+              <li><a class="dropdown-item" href="#">WorkShop Detail</a></li>
+              <li><a class="dropdown-item" href="#">Event Detail</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Accounts
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-user-edit me-2"></i>Edit Profile</a></li>
+              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-cog me-2"></i>Settings</a></li>
+              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-sign-out-alt me-2"></i>Logout</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Components</a>
+          </li>
+        </ul>
+
+        <form class="d-flex" role="search">
+          <span class="input-group-text me-2" id="basic-addon1">
+            <i class="fa fa-search"></i>
+          </span>
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+
+        <ul class="navbar-nav mb-2 mb-lg-0 ">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img class="rounded-circle" src="../../Images/01.jpg" style="width: 20%;">
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <div class="row mt-3">
+                  <div class="col-3">
+                    <img class="rounded-circle" src="../../Images/01.jpg" style="width: 120%;margin-left: 5px;">
+                  </div>
+                  <div class="col-9">
+                    <h6>Lori Ferguson</h6>
+                    <p class="text-secondary">example@gmail.com</p>
+                  </div>
+
+                </div>
+                <hr>
+              </li>
+
+              <li><a class="dropdown-item text-secondary" href="#"><i class="fa-solid fa-user-edit me-2"></i>Edit
+                  Profile</a></li>
+              <li><a class="dropdown-item text-secondary" href="#"><i class="fa-solid fa-cog me-2"></i>Settings</a></li>
+              <li><a class="dropdown-item text-secondary" href="#"><i
+                    class="fa-solid fa-question-circle me-2"></i>Help</a></li>
+              <li><a class="dropdown-item text-secondary" href="#"><i class="fa-solid fa-sign-out-alt me-2"></i>Sign
+                  Out</a></li>
+            </ul>
+          </li>
+        </ul>
+
+
+      </div>
+    </div>
+  </nav>
+  <header>
+    <div class="container mt-3">
+      <div class="col align-content-center">
+        <p class="h1 mt-3 fw-bold w-50">Study in Canada for International Students</p>
+        <br>
+        <p class="fw-bold w-75 h6 text-secondary">For who thoroughly her boy estimating conviction. Removed demands
+          expense account in
+          outward tedious do.
+          Particular way thoroughly unaffected projection favorable Mrs can be projecting own. Thirty it matter enable
+          become admire in giving.</p>
+        <br>
+        <img src="../../Images/1696510478.png" class="h-300px mb-n9 rounded-3"
+          style="width: 90%;background-position: center left; background-size: cover;">
+      </div>
+    </div>
+  </header>
+  <br>
+  <br>
+  <section>
+    <div class="container">
+      <div class="col">
+        <p class="text-secondary">Perceived end knowledge certainly day sweetness why cordially. On forth doubt miles of
+          child. Exercise joy man children rejoiced. Yet uncommonly his ten who diminution astonished. Demesne had new
+          manners savings staying had. Under folly balls, death own point now men. Match way these she avoids seeing
+          death. She who drift their fat off. Ask a quick six seven offer see among. Handsome met debating sir dwelling
+          age material. As style lived he worse dried. Offered related so visitors we private removed.</p>
+        <p class="text-secondary">Yet uncommonly his ten who diminution astonished. Demesne had new manners savings
+          staying had. Under folly balls, death own point now men. Match way these she avoids seeing death. She who
+          drift their fat off. Ask a quick six seven offer see among. As style lived he worse dried. Offered related so
+          visitors we private removed.</p>
+      </div>
+    </div>
+  </section>
+  <br>
+  <section>
+    <div class="container">
+      <h4 class="fw-bold">Why Study in Canada?</h4>
+      <br>
+      <div class="row text-secondary">
+        <div class="col-xl-3 col-lg-6 col-sm-12">
+          <p>
+            <i class="fa fa-check-circle verified-icon"></i>
+            One of the best places to live and work
+          </p>
+          <p>
+            <i class="fa fa-check-circle verified-icon"></i>
+            Affordable education & living
+          </p>
+          <p>
+            <i class="fa fa-check-circle verified-icon"></i>
+            20 hrs/week work while Studying
+          </p>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-lg-12">
+          <p>
+            <i class="fa fa-check-circle verified-icon"></i>
+            Degree recognized all over the world
+          </p>
+          <p>
+            <i class="fa fa-check-circle verified-icon"></i>
+            Career-oriented specialized courses
+          </p>
+          <p>
+            <i class="fa fa-check-circle verified-icon"></i>
+            2-year study + 3-year work permit + PR
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <section>
+    <div class="container">
+      <h4 class="fw-bold">Top Courses To Study In Canada</h4>
+      <br>
+      <div class="row fw-bold">
+        <ul class="list-inline hstack gap-3 flex-wrap">
+          <li class="list-inline-item"> <a class="btn btn-secondary btn-sm mb-0" href="#">Engineering</a> </li>
+          <li class="list-inline-item"> <a class="btn btn-secondary btn-sm mb-0" href="#">Biomedical</a> </li>
+          <li class="list-inline-item"> <a class="btn btn-secondary btn-sm mb-0" href="#">Visual Arts</a> </li>
+          <li class="list-inline-item"> <a class="btn btn-secondary btn-sm mb-0" href="#">Business Administration</a>
+          </li>
+          <li class="list-inline-item"> <a class="btn btn-secondary btn-sm mb-0" href="#">Liberal Arts & Science</a>
+          </li>
+          <li class="list-inline-item"> <a class="btn btn-secondary btn-sm mb-0" href="#">Social Science</a> </li>
+          <li class="list-inline-item"> <a class="btn btn-secondary btn-sm mb-0" href="#">Health Care</a> </li>
+          <li class="list-inline-item"> <a class="btn btn-secondary btn-sm mb-0" href="#">Intensive English</a> </li>
+          <li class="list-inline-item"> <a class="btn btn-secondary btn-sm mb-0" href="#">Mathematics</a> </li>
+          <li class="list-inline-item"> <a class="btn btn-secondary btn-sm mb-0" href="#">Computer Science</a> </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <br>
+  <section>
+    <div class="container">
+      <h4 class="fw-bold">Top Level Programs</h4>
+      <br>
+      <div class="row fw-bold">
+        <ul class="list-inline hstack gap-3 flex-wrap">
+          <li class="list-inline-item"> <a class="btn btn-secondary btn-sm mb-0" href="#">Advance Diploma</a> </li>
+          <li class="list-inline-item"> <a class="btn btn-secondary btn-sm mb-0" href="#">Applied Degree</a> </li>
+          <li class="list-inline-item"> <a class="btn btn-secondary btn-sm mb-0" href="#">AEC</a> </li>
+          <li class="list-inline-item"> <a class="btn btn-secondary btn-sm mb-0" href="#">Associate Degree</a> </li>
+          <li class="list-inline-item"> <a class="btn btn-secondary btn-sm mb-0" href="#">Bachelor Degree</a> </li>
+          <li class="list-inline-item"> <a class="btn btn-secondary btn-sm mb-0" href="#">Certificate</a> </li>
+          <li class="list-inline-item"> <a class="btn btn-secondary btn-sm mb-0" href="#">Diploma</a> </li>
+          <li class="list-inline-item"> <a class="btn btn-secondary btn-sm mb-0" href="#">Doctorate</a> </li>
+          <li class="list-inline-item"> <a class="btn btn-secondary btn-sm mb-0" href="#">DEC</a> </li>
+          <li class="list-inline-item"> <a class="btn btn-secondary btn-sm mb-0" href="#">Post Graduate</a> </li>
+          <li class="list-inline-item"> <a class="btn btn-secondary btn-sm mb-0" href="#">Master</a> </li>
+          <li class="list-inline-item"> <a class="btn btn-secondary btn-sm mb-0" href="#">University Transfer</a> </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container mt-5 text-secondary">
+      <table class="table table-bordered">
+        <thead class="thead-dark">
+          <tr>
+            <th colspan="3" class="bg-primary text-white fs-5">Intake & Deadine</th>
+          </tr>
+        </thead>
+        <tbody class="text-secondary">
+          <tr class="fw-bold text-secondary">
+            <td class="text-secondary">Intake</td>
+            <td class="text-secondary">Months</td>
+            <td class="text-secondary">Deadline</td>
+          </tr>
+          <tr class="text-secondary">
+            <td class="text-secondary">Winter Semester</td>
+            <td class="text-secondary">November / December</td>
+            <td class="text-secondary">Jun / July</td>
+          </tr>
+          <tr>
+            <td class="text-secondary">Spring Semester</td>
+            <td class="text-secondary">January / February</td>
+            <td class="text-secondary">August / September</td>
+          </tr>
+          <tr>
+            <td class="text-secondary">Summer Semester</td>
+            <td class="text-secondary">April / May</td>
+            <td class="text-secondary">October / November</td>
+          </tr>
+          <tr>
+            <td class="text-secondary">Fall Semester</td>
+            <td class="text-secondary">August / September</td>
+            <td class="text-secondary">March / April</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <br>
+  <section>
+    <div class="container">
+      <h4 class="fw-bold">Top Universities In Canada</h4>
+      <br>
+      <div class="row gy-4">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100" style="box-shadow: 3px 3px 3px 3px #888888;">
+            <img src="../../Images/uni-logo-03.svg" class="card-img-top mx-auto mt-3" style="width: 15%;" alt="...">
+            <div class="card-body">
+              <h4 class="fw-bold">College of Toronto</h4>
+              <p class="card-text text-secondary">A Public University In Toronto, Canada</p>
+              <a href="#" class="fw-bold">Visit University</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100" style="box-shadow: 3px 3px 3px 3px #888888;">
+            <img src="../../Images/uni-logo-01.svg" class="card-img-top mx-auto mt-3" style="width: 15%;" alt="...">
+            <div class="card-body">
+              <h4 class="fw-bold">Indiana College of - Montreal</h4>
+              <p class="card-text text-secondary">A Public University In Montreal, Canada</p>
+              <a href="#" class="fw-bold">Visit University</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100" style="box-shadow: 3px 3px 3px 3px #888888;">
+            <img src="../../Images/uni-logo-02.svg" class="card-img-top mx-auto mt-3" style="width: 15%;" alt="...">
+            <div class="card-body">
+              <h4 class="fw-bold">University Of British Columbia</h4>
+              <p class="card-text text-secondary">A Public University In Toronto, Canada</p>
+              <a href="#" class="fw-bold">Visit University</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100" style="box-shadow: 3px 3px 3px 3px #888888;">
+            <img src="../../Images/uni-logo-04.svg" class="card-img-top mx-auto mt-3" style="width: 15%;" alt="...">
+            <div class="card-body">
+              <h4 class="fw-bold">Andeerson Campus</h4>
+              <p class="card-text text-secondary">A Public University In Canada</p>
+              <a href="#" class="fw-bold">Visit University</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container my-5">
+    <div class="custom-banner d-flex flex-column flex-md-row justify-content-between align-items-center p-4">
+      <div class="mb-4 mb-md-0">
+        <h1>Not sure where to study?</h1>
+        <p>Speedily say has suitable disposal add boy. On forth doubt miles of child. Exercise joy man children
+          rejoiced.
+          Yet uncommonly his ten who diminution astonished.</p>
+      </div>
+      <div class="mb-4 mb-md-1">
+        <button class="btn btn-primary">Contact us</button>
+      </div>
+      <div class="circle circle1"></div>
+      <div class="circle circle2"></div>
+      <div class="circle circle3"></div>
+    </div>
+  </div>
+
+  <br>
+  <footer class="mt-5">
+    <div class="container">
+      <div class="row text-center text-md-start">
+
+        <div class="col-12 col-md-4 col-lg-3 mt-4">
+          <a class="navbar-brand" href="#"><img src="I:/ITI/Bootstrap/Bootstrap/Project/Images/logo.svg"
+              class="img-fluid" style="width: 60%;"></a>
+          <br>
+          <br>
+          <p class="text-secondary">
+            Eduport education theme, built specifically for the education centers which is dedicated to teaching and
+            involve learners.
+          </p>
+          <div class="d-flex justify-content-center justify-content-md-start mt-4">
+            <a href="#" class="me-3"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="purple"
+                class="bi bi-instagram" viewBox="0 0 16 16">
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+              </svg></a>
+            <a href="#" class="me-3"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue"
+                class="bi bi-facebook" viewBox="0 0 16 16">
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+              </svg></a>
+            <a href="#" class="me-3"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="DodgerBlue"
+                class="bi bi-twitter" viewBox="0 0 16 16">
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+              </svg></a>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="SlateBlue"
+                class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path
+                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+              </svg></a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-2 mt-4">
+          <ul class="list-unstyled">
+            <li class="h4 fw-bold">Company</li>
+            <br>
+            <li><a href="#" class="text-decoration-none text-secondary">About Us</a></li>
+            <li class="mt-2"><a href="#" class="text-decoration-none text-secondary">Contact Us</a></li>
+            <li class="mt-2"><a href="#" class="text-decoration-none text-secondary">News and Blogs</a></li>
+            <li class="mt-2"><a href="#" class="text-decoration-none text-secondary">Library</a></li>
+            <li class="mt-2"><a href="#" class="text-decoration-none text-secondary">Career</a></li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-2 mt-4">
+          <ul class="list-unstyled">
+            <li class="h4 fw-bold">Community</li>
+            <br>
+            <li><a href="#" class="text-decoration-none text-secondary">Documentation</a></li>
+            <li class="mt-2"><a href="#" class="text-decoration-none text-secondary">Faq</a></li>
+            <li class="mt-2"><a href="#" class="text-decoration-none text-secondary">Forum</a></li>
+            <li class="mt-2"><a href="#" class="text-decoration-none text-secondary">Sitemap</a></li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-2 mt-4">
+          <ul class="list-unstyled">
+            <li class="h4 fw-bold">Teaching</li>
+            <br>
+            <li class="mt-2"><a href="#" class="text-decoration-none text-secondary">Become a teacher</a></li>
+            <li class="mt-2"><a href="#" class="text-decoration-none text-secondary">How to guide</a></li>
+            <li class="mt-2"><a href="#" class="text-decoration-none text-secondary">Terms & Conditions</a></li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-3 mt-4">
+          <ul class="list-unstyled">
+            <li class="h4 fw-bold">Contact</li>
+            <br>
+            <li><a href="#" class="text-decoration-none text-secondary">Toll free:+1234 568 963</a></li>
+            <li><a href="#" class="text-decoration-none text-secondary">(9:AM to 8:PM IST)</a></li>
+            <li><a href="#" class="text-decoration-none text-secondary">Email:example@gmail.com</a></li>
+          </ul>
+          <div class="row mt-2 justify-content-center justify-content-md-start">
+            <div class="col-6 col-md-12 col-lg-6 mb-3">
+              <img src="../../Images/google-play.svg" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-12 col-lg-6">
+              <img src="../../Images/app-store.svg" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <hr>
+      <br>
+    </div>
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-evenly text-center text-md-start text-secondary">
+        <p class="mt-2">Copyrights ©2024 Eduport. Build by Webestica</p>
+        <ul class="navbar-nav mb-0 mb-lg-0 ">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-language fa-1x"></i> Language
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"><i class="fas fa-flag-usa english-icon"></i> English</a></li>
+              <li><a class="dropdown-item" href="#"><i class="fas fa-flag french-icon"></i> French</a></li>
+              <li><a class="dropdown-item" href="#"> <i class="fas fa-flag german-icon"></i> German</a></li>
+            </ul>
+          </li>
+        </ul>
+        <p class="mt-2"><a href="#" class="text-decoration-none text-secondary">Terms Of Use</a></p>
+        <p class="mt-2"><a href="#" class="text-decoration-none text-secondary">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+<script src="../../bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+</html>

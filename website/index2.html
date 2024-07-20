@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: white;
+            box-shadow: 0 4px 2px -2px gray;
+        }
+        .navbar-brand {
+            font-weight: bold;
+        }
+        .navbar-nav .nav-item .nav-link {
+            color: #333;
+        }
+        .navbar-nav .nav-item .dropdown-menu a {
+            color: #333;
+        }
+        .sidebar {
+            height: 100vh;
+            position: fixed;
+            width: 250px;
+            background-color: #343a40;
+            padding-top: 20px;
+        }
+        .sidebar a {
+            color: white;
+            padding: 10px 20px;
+            display: block;
+            font-size: 16px;
+        }
+        .sidebar a.active {
+            background-color: #007bff;
+        }
+        .sidebar a:hover {
+            background-color: #495057;
+        }
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+        .profile-header {
+            text-align: center;
+            padding: 20px;
+            background-color: #007bff;
+            color: white;
+        }
+        .profile-header img {
+            border-radius: 50%;
+            border: 5px solid white;
+        }
+        .settings {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .settings h2 {
+            margin-bottom: 20px;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: calc(100% - 250px);
+            left: 250px;
+            text-align: center;
+        }
+        .custom-switch .custom-control-label::before {
+            background-color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5" href="#">
+            <img class="logo" src="images/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Demos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Accounts
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Components</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ...
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </li>
+            </ul>
+            <form class="d-flex ">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+                <a class="nav-link dropdown-toggle me-5 " >
+                    <img class="logo2 rounded-circle " src="images/01.jpg" alt="">
+                </a>
+        </div>
+        </div>
+        </nav>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="#"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+        <a href="#"><i class="fas fa-book"></i> My Courses</a>
+        <a href="#"><i class="fas fa-question-circle"></i> Quiz</a>
+        <a href="#"><i class="fas fa-dollar-sign"></i> Earnings</a>
+        <a href="#"><i class="fas fa-users"></i> Students</a>
+        <a href="#"><i class="fas fa-box"></i> Orders</a>
+        <a href="#"><i class="fas fa-star"></i> Reviews</a>
+        <a href="#"><i class="fas fa-user-edit"></i> Edit Profile</a>
+        <a href="#"><i class="fas fa-money-check-alt"></i> Payouts</a>
+        <a href="#" class="active"><i class="fas fa-cog"></i> Settings</a>
+        <a href="#"><i class="fas fa-trash-alt"></i> Delete Profile</a>
+        <a href="#"><i class="fas fa-sign-out-alt"></i> Sign out</a>
+    </div>
+
+    <!-- Main content -->
+    <div class="content">
+        <div class="profile-header">
+            <img class="rounded-circle" src="images/01.jpg" alt="Profile Image">
+            <h3>Lori Stevens</h3>
+            <p>⭐⭐⭐⭐⭐ 4.5/5.0 | 12k Enrolled Students | 25 Courses</p>
+        </div>
+        <div class="settings">
+            <h2>Settings</h2>
+            <div class="form-group">
+                <h5>Profile Settings</h5>
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="publicVisibility">
+                    <label class="custom-control-label" for="publicVisibility">
+                        <i class="fas fa-eye"></i> Your profile's public visibility
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <h5>Notifications Settings</h5>
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="emailNotification">
+                    <label class="custom-control-label" for="emailNotification">
+                        <i class="fas fa-envelope"></i> Notify me via email when logging in
+                    </label>
+                </div>
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="smsConfirmation">
+                    <label class="custom-control-label" for="smsConfirmation">
+                        <i class="fas fa-sms"></i> Send SMS confirmation for all online payments
+                    </label>
+                </div>
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="deviceAccess">
+                    <label class="custom-control-label" for="deviceAccess">
+                        <i class="fas fa-laptop"></i> Check which device(s) access your account
+                    </label>
+                </div>
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="publicProfile">
+                    <label class="custom-control-label" for="publicProfile">
+                        <i class="fas fa-user"></i> Show your profile publicly
+                    </label>
+                </div>
+            </div>
+            <button class="btn btn-primary">Save changes</button>
+            <button class="btn btn-secondary">Cancel</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© Eduport. Build by Webestica.</p>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
